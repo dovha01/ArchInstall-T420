@@ -108,6 +108,11 @@ mkdir .xinit
 	cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm
 	cp /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd
 
+Bluetooth
+
+pacman -S bluez bluez-utils
+modprobe btusb
+systemctl enable bluetooth.service
 android-linux
 	mtpfs
 	gvfs-mtp
