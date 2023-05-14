@@ -85,6 +85,9 @@ unmount -R /mnt
 exit
 reboot
 
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
 
 
 nano /etc/pacman.conf
