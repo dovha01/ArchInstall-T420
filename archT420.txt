@@ -24,8 +24,8 @@ swapon /dev/sda2
 #mkfs.btrfs 
 
 mount /dev/sda4 /mnt
-mkdir /boot
-mkdir /boot/efi
+mkdir /mnt/boot
+mkdir /mnt/boot/efi
 mkdir /mnt/home
 
 mount /dev/sda3 /mnt/boot/efi
