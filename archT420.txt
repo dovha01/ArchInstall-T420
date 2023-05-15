@@ -93,6 +93,8 @@ makepkg -si
 nano /etc/pacman.conf
 	color
 	ILoveCandy
+	
+	localectl --no-convert set-x11-keymap latam
 
 sudo pacman -S bspwm sxhkd xorg xorg-server xorg-xinit lightdm lightdm-webkit2-greeter nitrogen dmenu rofi kitty firefox neofetch polybar
 sudo pacman -S mesa mesa-demos xf86-video-intel intel-ucode  (nvidia/nvidia-lts)
