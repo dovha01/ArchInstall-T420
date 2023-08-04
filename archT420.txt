@@ -44,7 +44,7 @@ hwclock --systohc
 nano /etc/locale.gen          - - - - - - - - - es_MX.UTF-8 UTF-8
 	locale-gen
                                        
-echo LANG=mx_ES.UTF-8 > /etc/locale.conf
+echo LANG=es_MX.UTF-8 > /etc/locale.conf
 echo KEYMAP=la-latin1 > /etc/vconsole.conf
 echo "HostName" > /etc/hostname
 
