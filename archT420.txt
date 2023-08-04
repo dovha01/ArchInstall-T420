@@ -115,10 +115,9 @@ Bluetooth
 pacman -S bluez bluez-utils
 modprobe btusb
 systemctl enable bluetooth.service
+
 android-linux
-	mtpfs
-	gvfs-mtp
-	gvfs-gphoto2
+	mtpfs gvfs-mtp gvfs-gphoto2
 	
 	
 
