@@ -105,6 +105,19 @@ sudo pacman -S mesa (nvidia/nvidia-lts)
 
 localectl --no-convert set-x11-keymap latam
 
+paru zcfan
+echo options thinkpad_acpi fan_control=1 > /etc/modprobe.d/99-fancontrol.conf
+
+/etc/zcfan.conf
+
+max_temp 80
+med_temp 60
+low_temp 50
+
+systemctl enable zcfan
+
+
+
 
 mkdir .xinit
 	sxhkd &
