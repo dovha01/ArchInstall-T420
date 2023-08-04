@@ -105,6 +105,10 @@ sudo pacman -S mesa (nvidia/nvidia-lts)
 
 localectl --no-convert set-x11-keymap latam
 
+xinput list-prop
+
+xinput set-prop
+
 	paru zcfan
 
 rmmod thinkpad_acpi && modprobe thinkpad_acpi fan_control=1
