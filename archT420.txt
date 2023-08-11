@@ -142,6 +142,10 @@ systemctl enable bluetooth.service
 android-linux
 	mtpfs gvfs-mtp gvfs-gphoto2
 	
-	
+
+japanese fonts 
+
+noto-fonts-jp-vf
+adobe-source-han-sans-jp-fonts
 
 
