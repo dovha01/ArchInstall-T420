@@ -143,6 +143,15 @@ android-linux
 	mtpfs gvfs-mtp gvfs-gphoto2
 	
 
+Dark theme for qt
+
+	qt5ct
+/etc/X11/Xsession.d/100-qt5ct with
+the following line:
+
+	export QT_QPA_PLATFORMTHEME=qt5ct
+
+
 japanese fonts 
 
 noto-fonts-jp-vf
